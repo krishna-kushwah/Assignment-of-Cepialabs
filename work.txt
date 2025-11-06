@@ -1,0 +1,86 @@
+1.React is primarily used foa
+a) Server-side rendering
+b) Styling web pages
+c) Building user interfaces
+d) Managing databases
+
+Ans :- a)Server-side renderingb
+
+2.JSX allows you to:
+a) Write JavaScript inside CSS files
+b) Write HTML-like code inside JavaScript
+c) Run SQL queries in React
+d) Replace Node.js
+
+Ans:- a)Write HTML-like code inside JavaScript
+
+3.Which of the following is true about props?
+
+a) Props can be modified inside the child compone
+b) Props allow data flow from child → parent
+c) Props are immutable and flow parent → child
+d) Props are used to manage component state
+
+Ans:-c) Props are immutable and flow parent → child
+
+4.In React, event handlers are written in:
+a) snake_case
+b) PascalCase
+c) camelCase
+d) kebab-case
+
+Ans :-c) camelCase
+
+5.What does React use for efficient DOM updates?
+a) Shadow DOM
+b) Virtual DOM
+c) Real DOM only
+d) Web Assembly
+
+## Ans:-b) Virtual DOM
+
+6. Write a simple React functional component called
+   HelloWorld that displays “Hello, React!”.
+
+first of all create folder Component.JSX
+
+function App() {
+return (
+<h1>Hello, React</h1>
+);
+}
+export default App;
+
+---
+
+7. What is the difference between a functional
+   component and a class component?
+
+Ans :-Component are independent and reusable bits of code . they serve the same purpase as java JavaScript
+function but work in isolation and retur HTML,
+Functional Components are simpler and use hooks.
+Class Components use classes and lifecycle methods, but are used less in modern React.
+
+      function syntax
+
+      function App(){
+        retur <h>Functional component </h1>
+      }
+
+      class syntax
+
+      Class Car extends React.component{
+        render(){
+            return <h1> Class Component</h1>
+        }
+      }
+       ----------------------------------------------------------------------
+       8. Why should React component names start with a capital letter?
+
+       Ans-:starting the name with a capital letter ensures React correctly identifies and renders the component.
+       ----------------------------------------------------------------------------------
+
+       9. Explain the difference between JSX and plain JavaScript in React.
+       Ans -: JSX makes React code clean, readable, and easy to work with.
+              React converts JSX into plain JavaScript before running in the browser.
+       -------------------------------------------------------------------------------------------
